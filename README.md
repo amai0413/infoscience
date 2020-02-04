@@ -1,4 +1,7 @@
-# infoscience
+#This is a journal for Computer Science.
 
-#what I did in class. I listed up some programs/
-#what I learned in class I learned how algorythm works./
+#What we did for class.
+We learned how to use Python and Processing.
+
+#What did you learned during class?
+I learned how to code a program in Python.
