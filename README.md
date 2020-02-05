@@ -1,4 +1,4 @@
-#This is a journal for Computer Science.
+  #This is a journal for Computer Science.
 
 #What we did for class.
 We learned how to use Python and Processing.
@@ -6,12 +6,15 @@ We learned how to use Python and Processing.
 #What did you learned during class?
 I learned how to code a program in Python.
 
+
 def setup():
  size(1000, 1000)
  background(255)
  textAlign (CENTER)
 
 def mouseClicked():
+    preX=x
+    preY=y
     x = mouseX
     y = mouseY
     r = random(50,90)
@@ -20,10 +23,12 @@ def mouseClicked():
     myblue = random(0,255)
     fill(myred,mygreen,myblue)
     
+    
     circle (x,y,r)
     fill  (0)
     textSize (0.5*r)
     text ("Ai",x,y)
+    line(preX,preY,x,y)
 
     print(x,y)
     
